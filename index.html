@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>Guess The Word</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+<h4 id="player1_number"></h4>
+<br> 
+<h4 id="player2_number"></h4>
+
+<div class="container">
+	<center>
+		<h2 style="color: rgb(197, 27, 27);">Math Quiz Game!</h2>
+		<h3 id="player_question">
+		</h3>
+		 <h3 id="player_answer">
+		</h3>
+		 <div id="output" class="col-lg-6"> 
+		 </div>
+		 
+		<br>
+
+		<br>
+		<br>
+
+		<label>Put Your Number<b style="color: rgb(185, 43, 102)">As Many Numbers as You Want</b></label>
+		<input type= "text" class="form-control" id="word" placeholder="Type a Number">
+				<br>
+<button class="btn btn-success" onclick="send()" style="width: 30%;">Send</button>
+	</center>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
